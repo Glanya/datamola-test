@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
   <title>CV</title>
 </head>
 
@@ -18,9 +23,6 @@
             <a class="link" href="#summary">Summary</a>
           </li>
           <li class="nav__item">
-            <a class="link" href="#contacts">Contacts</a>
-          </li>
-          <li class="nav__item">
             <a class="link" href="#about">About</a>
           </li>
           <li class="nav__item">
@@ -31,6 +33,9 @@
           </li>
           <li class="nav__item">
             <a class="link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a class="link" href="#contacts">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -62,15 +67,15 @@
       <div class="wrapper">
         <h2 class="section-title">About me</h2>
         <div class="card">
-          <p class="section-desc">Junior front-end developer with 1+ year of experience in development applications,
+          <p class="about-desc">Junior front-end developer with 1+ year of experience in development applications,
             adaptive and crossbrowser templates and SPA with perfect pixels</p>
-          <p class="section-desc">Proficient in HTML, CSS, Javascript using React JS. In the process I use SASS/SCSS,
+          <p class="about-desc">Proficient in HTML, CSS, Javascript using React JS. In the process I use SASS/SCSS,
             MUI, Webpack, consequently I have a hands-on experience in using it, as well as using
             GIT for version control.</p>
-          <p class="section-desc">I'm looking for a company with a friendly team and interesting projects where I can
+          <p class="about-desc">I'm looking for a company with a friendly team and interesting projects where I can
             get
             new experience and learn new tricks and techniques.</p>
-          <p class="section-desc">I'm inspired to develop as a Frontend developer, so I always ready to develop in other
+          <p class="about-desc">I'm inspired to develop as a Frontend developer, so I always ready to develop in other
             libraries/frameworks, improve my skills and master new technologies.</p>
         </div>
       </div>
@@ -126,15 +131,14 @@
               <h4>JavaScript</h4>
               <span>70%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
-
+                <div class="progress-bar" style="width: 70%"></div>
               </div>
             </div>
             <div class="skill">
               <h4>TypeScript</h4>
               <span>70%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 70%"></div>
               </div>
             </div>
           </div>
@@ -146,14 +150,14 @@
               <h4>HTML5</h4>
               <span>90%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 90%"></div>
               </div>
             </div>
             <div class="skill">
               <h4>CSS3</h4>
               <span>80%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 80%"></div>
               </div>
             </div>
           </div>
@@ -165,14 +169,14 @@
               <h4>React</h4>
               <span>35%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 35%"></div>
               </div>
             </div>
             <div class="skill">
               <h4>Webpack</h4>
               <span>50%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 50%"></div>
               </div>
             </div>
           </div>
@@ -181,7 +185,7 @@
               <h4>SASS/SCSS</h4>
               <span>60%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 60%"></div>
 
               </div>
             </div>
@@ -189,7 +193,7 @@
               <h4>Material-UI</h4>
               <span>30%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 30%"></div>
               </div>
             </div>
           </div>
@@ -201,7 +205,7 @@
               <h4>Git</h4>
               <span>70%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 70%"></div>
               </div>
             </div>
           </div>
@@ -213,14 +217,14 @@
               <h4>Figma</h4>
               <span>75%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 75%"></div>
               </div>
             </div>
             <div class="skill">
               <h4>Adobe Photoshop</h4>
               <span>100%</span>
               <div class="progress">
-                <div class="progress-bar"></div>
+                <div class="progress-bar" style="width: 100%"></div>
               </div>
             </div>
           </div>
@@ -230,41 +234,70 @@
     <section class="section portfolio-section" id="portfolio">
       <div class="wrapper">
         <h2 class="section-title">Portfolio</h2>
-        <div>
-          <div>
-            <a href="https://rolling-scopes-school.github.io/glanya-JSFE2021Q3/museum-adaptive/"><img
-                src="assets/img/project-1.jpg" alt="project1"></a>
-          </div>
-          <div>
-            <a href="https://rolling-scopes-school.github.io/glanya-JSFE2022Q1/shelter/pages/main/"><img
-                src="assets/img/project-2.jpg" alt="project2"></a>
-          </div>
-          <div>
-            <a href="https://glanya.github.io/cssMemSlider/cssMemSlider/index.html"><img src="assets/img/project-3.jpg"
-                alt="project3"></a>
-          </div>
-          <div>
-            <a href="https://test-notes.netlify.app/"><img src="assets/img/project-4.jpg" alt="project4"></a>
+        <div class="card">
+          <div class="projects-wrapper">
+            <div class="project">
+              <a href="https://rolling-scopes-school.github.io/glanya-JSFE2021Q3/museum-adaptive/" target="_blank">
+                <div class="project_hover">
+                  <div class="project-desc">
+                    <h3 class="project-title">Louvre Museum</h3>
+                    <p class="project-stack">HTML, CSS, adaptive layout</p>
+                  </div>
+                </div>
+                <img class="project-img" src="assets/img/project-1.jpg" alt="project1">
+              </a>
+            </div>
+            <div class="project">
+              <a href="https://rolling-scopes-school.github.io/glanya-JSFE2022Q1/shelter/pages/main/" target="_blank">
+                <div class="project_hover">
+                  <div class="project-desc">
+                    <h3 class="project-title">Shelter</h3>
+                    <p class="project-stack">HTML, CSS, JS, adaptive layout</p>
+                  </div>
+                </div>
+                <img class="project-img" src="assets/img/project-2.jpg" alt="project2"></a>
+            </div>
+            <div class="project">
+              <a href="https://glanya.github.io/cssMemSlider/cssMemSlider/index.html" target="_blank">
+                <div class="project_hover">
+                  <div class="project-desc">
+                    <h3 class="project-title">Mem Slider</h3>
+                    <p class="project-stack">HTML, CSS, adaptive layout</p>
+                  </div>
+                </div>
+                <img class="project-img" src="assets/img/project-3.jpg" alt="project3"></a>
+            </div>
+            <div class="project">
+              <a href="https://test-notes.netlify.app/" target="_blank">
+                <div class="project_hover">
+                  <div class="project-desc">
+                    <h3 class="project-title">Notes</h3>
+                    <p class="project-stack">React, SCSS</p>
+                  </div>
+                </div>
+                <img class="project-img" src="assets/img/project-4.jpg" alt="project4"></a>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="section contacts-section" id="contacts">
       <div class="wrapper">
-        <div class="contacts">
-          <div class="contact__item"><a href="#"></a></div>
-          <div class="contact__item"><a href="#"></a></div>
-          <div class="contact__item"><a href="#"></a></div>
-          <div class="contact__item"><a href="#"></a></div>
-          <div class="contact__item"><a href="#"></a></div>
+        <h2 class="section-title">Contact me</h2>
+          <div class="contacts">
+            <div class="contact__item"><a class="contact__icon cell" href="tel:+375-29-368-03-19" target="_blank"></a></div>
+            <div class="contact__item"><a class="contact__icon mail" href="mailto:sokolovskayaglafira@gmail.com" target="_blank"></a></div>
+            <div class="contact__item"><a class="contact__icon linkedin" href="https://www.linkedin.com/in/glafirasokolovskaya/" target="_blank"></a></div>
+            <div class="contact__item"><a class="contact__icon telegram" href="https://t.me/glanyyya" target="_blank"></a></div>
+            <div class="contact__item"><a class="contact__icon github" href="https://github.com/Glanya" target="_blank"></a></div>
+          </div>
         </div>
-      </div>
     </section>
   </main>
-  <footer>
-    <div class="wrapper">
-      <h2 class="section-title">Sokolovskaya Glafira</h2>
-      <p>© 2023</p>
+  <footer class="footer colored">
+    <div class="wrapper footer-wrapper">
+      <p>Sokolovskaya Glafira</p>
+      <span>© 2023</span>
     </div>
   </footer>
 </body>
