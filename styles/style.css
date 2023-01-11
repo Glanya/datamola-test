@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   width: 100%;
-  max-width: 1366px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -118,7 +118,7 @@ body {
 .controls {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+  width: 80%;
   list-style: none;
   padding: 0;
 }
@@ -307,4 +307,15 @@ body {
 .footer__wrapper {
   text-align: center;
   padding: 20px 60px;
+}
+
+@media (max-width: 1024px) {
+  .contacts {
+    width: 60%
+  }
+
+  .project-desc {
+    font-size: 22px;
+    margin-top: 20%;
+  }
 }
