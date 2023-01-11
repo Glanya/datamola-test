@@ -405,7 +405,7 @@ body {
 
 @media (max-width: 420px) {
   .section {
-    padding: 20px;
+    padding: 10px;
   }
 
   .skills__wrapper {
